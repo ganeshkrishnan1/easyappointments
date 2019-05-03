@@ -334,16 +334,11 @@
                 <!-- FRAME FOOTER -->
 
                 <div id="frame-footer">
-                    Powered By
-                    <a href="http://easyappointments.org" target="_blank">Easy!Appointments</a>
-                    |
+                    
                     <span id="select-language" class="label label-success">
     		        	<?= ucfirst($this->config->item('language')) ?>
     		        </span>
-                    |
-                    <a href="<?= site_url('backend'); ?>">
-                        <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
-                    </a>
+                                     
                 </div>
             </div>
         </div>
